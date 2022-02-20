@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-pros-cons {
+	background-color: #9b2121;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	// margin-right: -10px;
+	color: #fff;
+
+	
+		&.has-2-columns {
+			.wp-block-wt-theme-table {
+				width: calc(100% / 2 - 20px);
+			}
+		}
+}

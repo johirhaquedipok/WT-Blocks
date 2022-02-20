@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-pros-cons {
+	display: block;
+	&.has-2-columns {
+		/* stylelint-disable-next-line selector-class-pattern */
+		 > .block-editor-inner-blocks > .block-editor-block-list__layout > {
+			[data-type="wt-theme/product-table"] {
+				width: calc(100% / 2 - 20px);
+			}
+
+			.block-list-appender {
+				align-self: stretch;
+				width: calc(100% / 2 - 20px);
+				border: 1px dashed;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				min-height: 70px;
+			}
+		}
+	}
+
+
+	
+	> .block-editor-inner-blocks > .block-editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+}

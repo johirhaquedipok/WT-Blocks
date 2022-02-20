@@ -1,0 +1,73 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-products-htable {
+	display: block;
+
+	// @for $i from 1 through 6 {
+	// 	&.has-#{$i}-columns {
+	// 		/* stylelint-disable-next-line selector-class-pattern */
+	// 		 > .block-editor-inner-blocks > .block-editor-block-list__layout > {
+	// 			[data-type="wt-theme/innertable"] {
+	// 				width: calc(100% / #{$i} - 20px);
+	// 			}
+
+	// 			.block-list-appender {
+	// 				align-self: stretch;
+	// 				width: calc(100% / #{$i} - 20px);
+	// 				border: 1px dashed;
+	// 				display: flex;
+	// 				align-items: center;
+	// 				justify-content: center;
+	// 				min-height: 70px;
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+		// display: flex;
+		// flex-wrap: wrap;
+		// flex-direction: column;
+		// margin-left: -10px;
+		// margin-right: -10px;
+
+		> [data-type="wt-theme/innertable"] {
+			> [data-type="wt-theme/innertable"] {
+				> .block-editor-inner-blocks > .block-editor-block-list__layout {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 100%;
+				}
+			}
+		}
+
+		[data-type="wt-theme/table"] {
+			max-width: none;
+			margin: 0;
+		}
+
+		> [data-type="wt-theme/table"] {
+			margin: 10px;
+
+			h4 {
+				color: #222;
+				font-size: 22px;
+				font-size: bold;
+				margin: 0;
+			}
+
+			p {
+				color: #565656;
+				font-size: 16px;
+				font-weight: 300;
+				margin-bottom: 5px;
+				margin-top: 5px;
+			}
+		}
+	}
+}

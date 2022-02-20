@@ -1,0 +1,40 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-products-table {
+	display: flex;
+	margin-left: -10px;
+	margin-right: -10px;
+
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			.wp-block-wt-theme-product-table {
+				width: calc(100% / #{$i} - 20px);
+			}
+		}
+	}
+
+	.wp-block-wt-theme-product-table {
+		margin: 10px;
+
+
+		h4 {
+			color: #222;
+			font-size: 22px;
+			font-size: bold;
+			margin: 0;
+		}
+
+		p {
+			color: #565656;
+			font-size: 16px;
+			font-weight: 300;
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+	}
+}

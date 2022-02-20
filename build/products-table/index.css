@@ -1,0 +1,135 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/products-table/editor.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wt-theme-products-table {
+  display: block;
+}
+.wp-block-wt-theme-products-table.has-1-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 1 - 20px);
+}
+.wp-block-wt-theme-products-table.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 1 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table.has-2-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 2 - 20px);
+}
+.wp-block-wt-theme-products-table.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 2 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table.has-3-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 3 - 20px);
+}
+.wp-block-wt-theme-products-table.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 3 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table.has-4-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 4 - 20px);
+}
+.wp-block-wt-theme-products-table.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 4 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table.has-5-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 5 - 20px);
+}
+.wp-block-wt-theme-products-table.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 5 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table.has-6-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-wt-theme-products-table.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  width: calc(100% / 6 - 20px);
+}
+.wp-block-wt-theme-products-table.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: calc(100% / 6 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-wt-theme-products-table > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wp-block-wt-theme-products-table > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="wt-theme/product-table"] {
+  max-width: none;
+  margin: 0;
+}
+.wp-block-wt-theme-products-table > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] {
+  margin: 10px;
+}
+.wp-block-wt-theme-products-table > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] h4 {
+  color: #222;
+  font-size: 22px;
+  font-size: bold;
+  margin: 0;
+}
+.wp-block-wt-theme-products-table > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="wt-theme/product-table"] p {
+  color: #565656;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=index.css.map*/
