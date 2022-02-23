@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-product-review-1 {
+	border: 1px solid red;
+
+	> .block-editor-inner-blocks > .block-editor-block-list__layout > .block-editor-block-list__layout{
+		// align-items: center;
+		// justify-content: center;
+	}
+}

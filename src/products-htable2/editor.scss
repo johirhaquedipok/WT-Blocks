@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wt-theme-products-htable2 {
+	display: block;
+
+
+	 > .block-editor-inner-blocks > .block-editor-block-list__layout {
+
+		> [data-type="wt-theme/innertable2"] {
+			> [data-type="wt-theme/innertable2"] {
+				> .block-editor-inner-blocks > .block-editor-block-list__layout {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 100%;
+				}
+			}
+		}
+
+		// [data-type="wt-theme/table"] {
+		// 	max-width: none;
+		// 	margin: 0;
+		// }
+	}
+}
