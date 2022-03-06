@@ -5,21 +5,43 @@ import './editor.scss';
 
 
 export default function Edit() {
+	const default_block = 
+
+		[
+			[ 'core/columns', {},
+                        [
+                            [ 'core/column', {}, [
+								[ 'core/heading', { content: 'Morbi augue', level: 3 } ],
+								[ 'core/columns', {},
+												[
+													[ 'core/column', {}, [
+															[ 'core/heading', { content: 'Positive', level: 4 } ],
+															[ 'core/list', { } ],
+														]
+													],
+													[ 'core/column', {}, [
+															[ 'core/heading', { content: 'Negative', level: 4 } ],
+															[ 'core/list', { } ],
+														]
+													],
+												   
+												],
+											],
+                                ]
+                            ],
+                    ],
+		]
+
+		
+        ];
 
 	return (
 		<div
-			{ ...useBlockProps( {
-				className: `has-2-columns`,
-			} ) }
+			{ ...useBlockProps() }
 		>
 			<InnerBlocks
-				allowedBlocks={ [ 'wt-theme/table' ] }
-				templateLock="all"
 				orientation="horizontal"
-				template={ [
-					[ 'wt-theme/table' ],
-					[ 'wt-theme/table' ],
-				] }
+				template={ default_block }
 			/>
 		</div>
 	);

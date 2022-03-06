@@ -1,0 +1,1 @@
+{"version":3,"file":"split-section/index.css","mappings":";;;AAEA;EACC;AADD,C","sources":["webpack://wt-blocks/./src/split-section/editor.scss"],"sourcesContent":["\n\n.wp-block-wt-theme-split-section {\n\tdisplay: block;\n}\n"],"names":[],"sourceRoot":""}

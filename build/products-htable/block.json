@@ -13,11 +13,5 @@
 	"textdomain": "products-htable",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
-	"attributes": {
-		"columns": {
-			"type": "number",
-			"default": 2
-		}
-	}
+	"style": "file:./style-index.css"
 }

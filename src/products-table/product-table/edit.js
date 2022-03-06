@@ -1,4 +1,4 @@
-import { InnerBlocks, InspectorControls, useBlockProps } from '@wordpress/block-editor';
+import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
 
 export default function Edit(  ) {
 	const DEFAULT_TEMPLATE = [
@@ -12,8 +12,6 @@ export default function Edit(  ) {
 
 	return (
 		<>
-			<InspectorControls>
-			</InspectorControls>
 			<div { ...useBlockProps() }>
 
 				<InnerBlocks

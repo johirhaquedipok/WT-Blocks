@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/products-htable2/edit.js":
-/*!**************************************!*\
-  !*** ./src/products-htable2/edit.js ***!
-  \**************************************/
+/***/ "./src/split-section/edit.js":
+/*!***********************************!*\
+  !*** ./src/split-section/edit.js ***!
+  \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -16,53 +16,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor.scss */ "./src/products-htable2/editor.scss");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor.scss */ "./src/split-section/editor.scss");
 
 
 
 function Edit() {
-  const DEFAULT_TEMPLATE = [['core/image', {}], ['core/heading', {
-    placeholder: 'Product Title'
+  const DEFAULT_TEMPLATE = [['core/columns', {}, [['core/column', {}, [['core/image', {}]]], ['core/column', {}, [['core/heading', {
+    content: 'Morbi augue',
+    level: 3
   }], ['core/paragraph', {
-    placeholder: 'Tag Name'
+    content: 'Instead of locking the template, you could instead restrict it by stating which blocks you are allowed to insert into it. Simply replace the Edit function with the following code.'
   }], ['core/button', {
-    placeholder: 'Buy Now'
-  }]];
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks // allowedBlocks={ [ 'wt-theme/innertable' ] }
-  , {
-    template: DEFAULT_TEMPLATE
+    placeholder: 'click here'
+  }]]]]]];
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
+    template: DEFAULT_TEMPLATE,
+    templateLock: "insert",
+    renderAppender: false
   }));
 }
 
 /***/ }),
 
-/***/ "./src/products-htable2/index.js":
-/*!***************************************!*\
-  !*** ./src/products-htable2/index.js ***!
-  \***************************************/
+/***/ "./src/split-section/index.js":
+/*!************************************!*\
+  !*** ./src/split-section/index.js ***!
+  \************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit */ "./src/products-htable2/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./save */ "./src/products-htable2/save.js");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.scss */ "./src/products-htable2/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit */ "./src/split-section/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./save */ "./src/split-section/save.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.scss */ "./src/split-section/style.scss");
 
 
 
 
-(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('wt-theme/products-htable2', {
+(0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('wt-theme/split-section', {
   edit: _edit__WEBPACK_IMPORTED_MODULE_1__["default"],
   save: _save__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 
 /***/ }),
 
-/***/ "./src/products-htable2/save.js":
-/*!**************************************!*\
-  !*** ./src/products-htable2/save.js ***!
-  \**************************************/
+/***/ "./src/split-section/save.js":
+/*!***********************************!*\
+  !*** ./src/split-section/save.js ***!
+  \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -81,10 +83,10 @@ function save() {
 
 /***/ }),
 
-/***/ "./src/products-htable2/editor.scss":
-/*!******************************************!*\
-  !*** ./src/products-htable2/editor.scss ***!
-  \******************************************/
+/***/ "./src/split-section/editor.scss":
+/*!***************************************!*\
+  !*** ./src/split-section/editor.scss ***!
+  \***************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -93,10 +95,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/products-htable2/style.scss":
-/*!*****************************************!*\
-  !*** ./src/products-htable2/style.scss ***!
-  \*****************************************/
+/***/ "./src/split-section/style.scss":
+/*!**************************************!*\
+  !*** ./src/split-section/style.scss ***!
+  \**************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -247,8 +249,8 @@ module.exports = window["wp"]["element"];
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"products-htable2/index": 0,
-/******/ 			"products-htable2/style-index": 0
+/******/ 			"split-section/index": 0,
+/******/ 			"split-section/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -300,7 +302,7 @@ module.exports = window["wp"]["element"];
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["products-htable2/style-index"], function() { return __webpack_require__("./src/products-htable2/index.js"); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["split-section/style-index"], function() { return __webpack_require__("./src/split-section/index.js"); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
