@@ -10,9 +10,10 @@ export default function Edit( ) {
 		>
 			
 			<InnerBlocks
-				allowedBlocks={ [ 'wt-theme/listimage' ], 
+				allowedBlocks={ [[ 'wt-theme/listimage' ], 
 				['wt-theme/headwithpara'],
-				['wt-theme/artbutton']  }
+				['wt-theme/artbutton']]  }
+
 				template={ [
 					['wt-theme/headwithpara'],
 					[ 'wt-theme/listimage' ],

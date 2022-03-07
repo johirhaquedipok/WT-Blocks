@@ -1,16 +1,16 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "wt-theme/products-htable",
+	"name": "wt-theme/products-horizontal-table",
 	"version": "0.1.0",
 	"title": "Products Horizontal Table",
-	"category": "widgets",
-	"icon": "minus",
+	"category": "wt-blocks",
+	"icon": "products horizontal table",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "products-htable",
+	"textdomain": "wt-blocks",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"

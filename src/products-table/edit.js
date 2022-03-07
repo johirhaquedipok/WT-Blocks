@@ -36,6 +36,7 @@ export default function Edit( { attributes, setAttributes } ) {
 				template={ [
 					[ 'wt-theme/product-table' ],
 					[ 'wt-theme/product-table' ],
+					[ 'wt-theme/product-table' ],
 				] }
 			/>
 		

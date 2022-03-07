@@ -1,1 +1,1 @@
-{"version":3,"file":"split-section/index.css","mappings":";;;AAEA;EACC;AADD,C","sources":["webpack://wt-blocks/./src/split-section/editor.scss"],"sourcesContent":["\n\n.wp-block-wt-theme-split-section {\n\tdisplay: block;\n}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"split-section/index.css","mappings":";;;AAEA;EACC;EACA;EACA;AADD,C","sources":["webpack://wt-blocks/./src/split-section/editor.scss"],"sourcesContent":["\n\n.wp-block-wt-theme-split-section {\n\tdisplay: block;\n\tbackground: #f9f9f9;\n\tpadding: 5px;\n}\n"],"names":[],"sourceRoot":""}

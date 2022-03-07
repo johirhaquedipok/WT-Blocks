@@ -67,16 +67,13 @@ __webpack_require__.r(__webpack_exports__);
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockType)('wt-theme/product-review-1', {
   icon: {
     src: (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("svg", {
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "16",
-      height: "16",
-      fill: "currentColor",
-      class: "block_icon",
-      viewBox: "0 0 16 16"
+      fill: "none",
+      viewBox: "0 0 766 364",
+      xmlns: "http://www.w3.org/2000/svg"
     }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("path", {
-      d: "M5 1v8H1V1h4zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm13 2v5H9V2h5zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H9zM5 13v2H3v-2h2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3zm12-1v2H9v-2h6zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H9z"
-    })),
-    background: '#f9f9f9'
+      d: "M116.456 252.159l-7.471 31.201L33.839.133h16.26l66.357 252.026zm16.48-60.864l-8.13 30.322L66.578.133h16.04l50.318 191.162zm16.479-63.062l-8.35 30.762L99.098.133h16.479l33.838 128.1zM212.037 364h-16.479L291.798.572l-.22-.44h16.699v.44l42.847 147.657L390.455.133h16.48L310.475 364h-16.48l-43.066-147.437L212.037 364zm-32.959 0h-16.26L259.059.133h16.259L179.078 364zm-32.739 0h-16.26L226.539.133h16.04L146.339 364zm262.573 0h-16.479L488.673.133h16.479L408.912 364zm-32.959 0h-16.26L455.934.133h16.259L375.953 364zm-32.739 0h-16.26L423.414.133h16.04L343.214 364zM105.47 332.799L193.58.133h16.48L113.6 364H97.12L.88.133h16.48l88.11 332.666zm153.808-147.217l42.627 148.535 8.35-31.421-42.847-148.095-8.13 30.981zm16.26-61.963l42.847 148.096 8.349-30.982-42.846-148.315-8.35 31.201zm16.26-61.523l43.066 148.095 8.13-31.201-42.627-148.535-8.569 31.64zm236.426-46.143V.133h237.304v15.82H528.224zm0 31.64v-15.82h237.304v15.82H528.224zm0 31.641v-15.82h237.304v15.82h-63.281V364h-15.82V79.234h-15.821V364h-15.82V79.234h-15.82V364h-15.82V79.234h-15.821V364h-15.82V79.234h-63.281z",
+      fill: "#309A4C"
+    }))
   },
   edit: _edit__WEBPACK_IMPORTED_MODULE_2__["default"],
   save: _save__WEBPACK_IMPORTED_MODULE_3__["default"]

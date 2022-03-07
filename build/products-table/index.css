@@ -8,6 +8,7 @@
  */
 .wp-block-wt-theme-products-table {
   display: block;
+  background: #f9f9f9;
 }
 .wp-block-wt-theme-products-table.has-1-columns {
   /* stylelint-disable-next-line selector-class-pattern */

@@ -4,20 +4,20 @@
 	"name": "wt-theme/products-table",
 	"version": "0.1.0",
 	"title": "Products Table",
-	"category": "widgets",
-	"icon": "smiley",
+	"category": "wt-blocks",
+	"icon": "products-table",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "products-table",
+	"textdomain": "wt-blocks",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
 	"attributes": {
 		"columns": {
 			"type": "number",
-			"default": 2
+			"default": 3
 		}
 	}
 }

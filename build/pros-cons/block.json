@@ -4,13 +4,13 @@
 	"name": "wt-theme/pros-cons",
 	"version": "0.1.0",
 	"title": "Pros N Cons",
-	"category": "widgets",
-	"icon": "editor-ul",
+	"category": "wt-blocks",
+	"icon": "Pros N Cons",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "pros-cons",
+	"textdomain": "wt-blocks",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"

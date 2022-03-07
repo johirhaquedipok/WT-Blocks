@@ -16,15 +16,15 @@ export default function Edit() {
                                 ]
                             ],
                             [ 'core/column', {}, [
-                                    [ 'core/paragraph', { content: 'Morbi augue ' } ],
+                                    [ 'core/paragraph', { content: 'Lorem Ipsum ' } ],
                                 ]
                             ],
                             [ 'core/column', {}, [
-                                    [ 'core/paragraph', { content: '$200' } ],
+                                    [ 'core/paragraph', { content: '$200',  } ],
                                 ]
                             ],
                             [ 'core/column', {}, [
-                                    [ 'core/button', { placeholder : 'Button 1',
+                                    [ 'core/button', { text : 'Buy Now',
                                     align : 'center', } ],
                                 ]
                             ],

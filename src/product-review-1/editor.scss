@@ -1,12 +1,9 @@
 
 
 .wp-block-wt-theme-product-review-1 {
-	border: 1px solid red;
-
-	.components-popover.is-expanded, .components-popover[data-x-axis][data-y-axis] {
-		opacity: 0 !important;
-	}
-
+	display: block;
+	padding: 5px;
+	background: #f9f9f9;
 }
 
 // block-editor-block-list__insertion-point is-vertical is-with-inserter

@@ -2,9 +2,9 @@
 	"apiVersion": 2,
 	"name": "wt-theme/split-section",
 	"version": "0.1.0",
-	"title": "WT-split-section",
+	"title": "WT-Split-Section",
 	"category": "wt-blocks",
-	"icon": "plus",
+	"icon": "split-section",
 	"description": " Customize however you want with and image on one side and some text and button on the other side.",
 	"supports": {
 		"html": false

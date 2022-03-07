@@ -4,13 +4,13 @@
 	"name": "wt-theme/products-specification",
 	"version": "0.1.0",
 	"title": "products specification",
-	"category": "widgets",
-	"icon": "smiley",
+	"category": "wt-blocks",
+	"icon": "products-specificaton",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "products-specification",
+	"textdomain": "wt-blocks",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"

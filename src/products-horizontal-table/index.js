@@ -1,9 +1,8 @@
 import { registerBlockType } from '@wordpress/blocks';
 import Edit from './edit';
-import './product-table';
 import save from './save';
 import './style.scss';
-registerBlockType( 'wt-theme/products-table', {
+registerBlockType( 'wt-theme/products-horizontal-table', {
 	icon: {
 		src:	(
 			<svg fill="none" viewBox="0 0 766 364" xmlns="http://www.w3.org/2000/svg">

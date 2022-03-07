@@ -6,6 +6,7 @@
 
 .wp-block-wt-theme-products-table {
 	display: block;
+	background: #f9f9f9;
 
 	@for $i from 1 through 6 {
 		&.has-#{$i}-columns {

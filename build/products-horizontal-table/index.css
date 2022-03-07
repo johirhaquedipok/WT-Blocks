@@ -1,0 +1,15 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/products-horizontal-table/editor.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-wt-theme-products-horizontal-table {
+  display: block;
+  background: #f9f9f9;
+  padding: 3px;
+}
+
+/*# sourceMappingURL=index.css.map*/
