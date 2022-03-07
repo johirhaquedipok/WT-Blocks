@@ -1,0 +1,1 @@
+{"version":3,"file":"faq/index.css","mappings":";;;AACA;EACC;AAAD,C","sources":["webpack://wt-blocks/./src/faq/editor.scss"],"sourcesContent":["\n.wp-block-wt-theme-faq {\n\tdisplay: block;\n}\n"],"names":[],"sourceRoot":""}
