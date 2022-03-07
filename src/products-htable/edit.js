@@ -1,42 +1,39 @@
 import {
-	InnerBlocks,
-	InspectorControls, useBlockProps
+    InnerBlocks, useBlockProps
 } from '@wordpress/block-editor';
-import { PanelBody, RangeControl } from '@wordpress/components';
-import { __ } from '@wordpress/i18n';
 import './editor.scss';
 
-export default function Edit( { attributes, setAttributes } ) {
-	const { columns } = attributes;
+export default function Edit() {
+    return (
+        <div { ...useBlockProps() }>
+            <InnerBlocks
+                template={ [
+                    [ 'core/columns', {},
+                        [
+                            [ 'core/column', {}, [
+                            
+                                    [ 'core/image', { } ],
+                                ]
+                            ],
+                            [ 'core/column', {}, [
+                                    [ 'core/paragraph', { content: 'Morbi augue ' } ],
+                                ]
+                            ],
+                            [ 'core/column', {}, [
+                                    [ 'core/paragraph', { content: '$200' } ],
+                                ]
+                            ],
+                            [ 'core/column', {}, [
+                                    [ 'core/button', { placeholder : 'Button 1',
+                                    align : 'center', } ],
+                                ]
+                            ],
+                        ]
+                    ],
+                ] }
 
-	const onChangeColumns = ( newColumns ) => {
-		setAttributes( { columns: newColumns } );
-	};
-	return (
-		<div
-			{ ...useBlockProps( {
-				className: `has-${ columns }-columns`,
-			} ) }
-		>
-			<InspectorControls>
-				<PanelBody>
-					<RangeControl
-						label={ __( 'Columns', 'products-htable' ) }
-						min={ 1 }
-						max={ 6 }
-						onChange={ onChangeColumns }
-						value={ columns }
-					/>
-				</PanelBody>
-			</InspectorControls>
-			
-			<InnerBlocks
-				allowedBlocks={ [ 'wt-theme/innertable' ] }
-				template={ [
-					[ 'wt-theme/innertable' ],
-				] }
-			/>
-		
-		</div>
-	);
+                templateLock="all"
+            />
+        </div>
+    );
 }

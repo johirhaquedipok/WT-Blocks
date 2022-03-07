@@ -1,0 +1,39 @@
+{
+	"apiVersion": 2,
+	"name": "wt-theme/split-section",
+	"version": "0.1.0",
+	"title": "WT-split-section",
+	"category": "wt-blocks",
+	"icon": "plus",
+	"description": " Customize however you want with and image on one side and some text and button on the other side.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "split-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"example": {
+		"attributes": {
+			"columns": 2
+		},
+		"innerblocks": [
+			{
+				"name": "wt-theme/split-section",
+				"attributes": {
+					 "column":{
+						"heading": "Morbi augue",
+						"paragraph": "Instead of locking the template, you could instead restrict it by stating which blocks you are allowed to insert into it. Simply replace the Edit function with the following code.",
+					   "button": "click here" 
+					},
+					"columns":  {
+						"image": "https://picsum.photos/200/300"
+					}
+					
+				}
+
+			}
+			
+		]
+	}
+}

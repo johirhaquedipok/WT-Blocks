@@ -8,18 +8,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-wt-theme-products-htable {
-  background: var(--clr-gray);
-  padding: 0.3rem 0;
-}
-.wp-block-wt-theme-products-htable .wp-block-wt-theme-innertable {
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.wp-block-wt-theme-products-htable .wp-block-wt-theme-innertable figure {
   display: block;
-  margin: 0 !important;
 }
 
 /*# sourceMappingURL=style-index.css.map*/
