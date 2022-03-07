@@ -25,7 +25,6 @@ function wt_theme_wt_blocks_block_init() {
 	register_block_type( __DIR__ . '/build/pros-cons' );
 	register_block_type( __DIR__ . '/build/products-horizontal-table' );
 	register_block_type( __DIR__ . '/build/split-section' );
-	register_block_type( __DIR__ . '/build/products-specification' );
 	register_block_type( __DIR__ . '/build/product-review-1' );
 	register_block_type( __DIR__ . '/build/faq' );
 }
