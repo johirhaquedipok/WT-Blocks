@@ -6,7 +6,7 @@ import './editor.scss';
 
 export default function Edit( ) {
 	const DEFAULT_TEMPLATE = [
-		[ 'core/columns', {},
+		[ 'core/columns', {columns: 2, verticalAlignment: 'center'},
                         [
                             [ 'core/column', {}, [
                             
@@ -16,7 +16,7 @@ export default function Edit( ) {
                             [ 'core/column', {}, [
                                     [ 'core/heading', { content: 'Morbi augue', level: 3 } ],
                                     [ 'core/paragraph', { content: 'Instead of locking the template, you could instead restrict it by stating which blocks you are allowed to insert into it. Simply replace the Edit function with the following code.' } ],
-									['core/button', {placeholder: 'click here'}],
+									['core/button', {placeholder: 'click here', align: 'center'}],
                                 ]
                             ],
                         ],
@@ -31,7 +31,7 @@ export default function Edit( ) {
 			
 			<InnerBlocks
 				template={ DEFAULT_TEMPLATE}
-				templateLock="insert"
+				templateLock="all"
 				renderAppender={ false }
 			/>
 		

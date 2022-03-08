@@ -24,16 +24,24 @@ function Edit() {
   const default_block = [['core/columns', {}, [['core/column', {}, [['core/heading', {
     content: 'Morbi augue',
     level: 3
-  }], ['core/columns', {}, [['core/column', {}, [['core/heading', {
+  }], ['core/columns', {
+    columns: 2,
+    verticalAlignment: 'center'
+  }, [['core/column', {}, [['core/heading', {
     content: 'Positive',
     level: 4
-  }], ['core/list', {}]]], ['core/column', {}, [['core/heading', {
+  }], ['core/list', {
+    content: 'write your list items'
+  }]]], ['core/column', {}, [['core/heading', {
     content: 'Negative',
     level: 4
-  }], ['core/list', {}]]]]]]]]]];
+  }], ['core/list', {
+    content: 'write your list items'
+  }]]]]]]]]]];
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
     orientation: "horizontal",
-    template: default_block
+    template: default_block,
+    templateLock: "all"
   }));
 }
 

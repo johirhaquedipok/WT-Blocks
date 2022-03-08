@@ -12,16 +12,16 @@ export default function Edit() {
                         [
                             [ 'core/column', {}, [
 								[ 'core/heading', { content: 'Morbi augue', level: 3 } ],
-								[ 'core/columns', {},
+								[ 'core/columns', {columns: 2, verticalAlignment: 'center'},
 												[
 													[ 'core/column', {}, [
 															[ 'core/heading', { content: 'Positive', level: 4 } ],
-															[ 'core/list', { } ],
+															[ 'core/list', {content: 'write your list items',} ],
 														]
 													],
 													[ 'core/column', {}, [
 															[ 'core/heading', { content: 'Negative', level: 4 } ],
-															[ 'core/list', { } ],
+															[ 'core/list', {content: 'write your list items', } ],
 														]
 													],
 												   
@@ -42,6 +42,7 @@ export default function Edit() {
 			<InnerBlocks
 				orientation="horizontal"
 				template={ default_block }
+				templateLock= "all"
 			/>
 		</div>
 	);

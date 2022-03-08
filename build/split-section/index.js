@@ -21,17 +21,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Edit() {
-  const DEFAULT_TEMPLATE = [['core/columns', {}, [['core/column', {}, [['core/image', {}]]], ['core/column', {}, [['core/heading', {
+  const DEFAULT_TEMPLATE = [['core/columns', {
+    columns: 2,
+    verticalAlignment: 'center'
+  }, [['core/column', {}, [['core/image', {}]]], ['core/column', {}, [['core/heading', {
     content: 'Morbi augue',
     level: 3
   }], ['core/paragraph', {
     content: 'Instead of locking the template, you could instead restrict it by stating which blocks you are allowed to insert into it. Simply replace the Edit function with the following code.'
   }], ['core/button', {
-    placeholder: 'click here'
+    placeholder: 'click here',
+    align: 'center'
   }]]]]]];
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
     template: DEFAULT_TEMPLATE,
-    templateLock: "insert",
+    templateLock: "all",
     renderAppender: false
   }));
 }

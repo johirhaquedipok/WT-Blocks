@@ -31,11 +31,13 @@ function Edit() {
     }], ['core/paragraph', {
       content: 'Lorem ipsum dolor sit amet labore cras venenatis.'
     }], ['core/columns', {
-      columns: 2
+      columns: 2,
+      verticalAlignment: 'center'
     }, [['core/column', {}, [['core/image', {}]]], ['core/column', {}, [['core/list', {
       content: 'list item'
     }]]]]], ['core/button', {
-      text: 'Buy Now'
+      text: 'Buy Now',
+      align: 'center'
     }]]]]]],
     templateLock: "all" // renderAppender={false}
     // allowedBlocks= {false}

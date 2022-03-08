@@ -8,7 +8,7 @@ export default function Edit() {
         <div { ...useBlockProps() }>
             <InnerBlocks
                 template={ [
-                    [ 'core/columns', {},
+                    [ 'core/columns', {columns: 2, verticalAlignment: 'center'},
                         [
                             [ 'core/column', {}, [
                             
@@ -24,8 +24,7 @@ export default function Edit() {
                                 ]
                             ],
                             [ 'core/column', {}, [
-                                    [ 'core/button', { text : 'Buy Now',
-                                    align : 'center', } ],
+                                    [ 'core/button', { text : 'Buy Now', align : 'center' } ],
                                 ]
                             ],
                         ]
